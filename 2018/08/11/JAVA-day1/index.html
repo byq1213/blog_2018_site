@@ -10,7 +10,7 @@
   
   <title>
     
-      Hello World | Biiu.me
+      Java 安装准备工作 | Biiu.me
     
   </title>
   <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -138,8 +138,8 @@
 </header>
 
     <div id="article-banner">
-  <h2>Hello World</h2>
-  <p class="post-date">2018-08-15</p>
+  <h2>Java 安装准备工作</h2>
+  <p class="post-date">2018-08-10</p>
   <div class="arrow-down">
     <a href="javascript:;"></a>
   </div>
@@ -147,17 +147,196 @@
 <main class="app-body flex-box">
   <!-- Article START -->
   <article class="post-article">
-    <section class="markdown-content"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <section class="markdown-content"><h3 id="常用DOS-命令"><a href="#常用DOS-命令" class="headerlink" title="常用DOS 命令"></a>常用DOS 命令</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D: 回车</td>
+<td>盘符切换</td>
+</tr>
+<tr>
+<td>dir (directory)</td>
+<td>列出当前目录下的文件以及文件夹</td>
+</tr>
+<tr>
+<td>md (make directory)</td>
+<td>删除目录</td>
+</tr>
+<tr>
+<td>cd (change directory)</td>
+<td>改变指定目录（进入指定目录）</td>
+</tr>
+<tr>
+<td>cd..</td>
+<td>返回上一级目录</td>
+</tr>
+<tr>
+<td>cd \</td>
+<td>返回到根目录</td>
+</tr>
+<tr>
+<td>del (delete)</td>
+<td>删除文件，（*.txt  删除所有txt 文件）</td>
+</tr>
+<tr>
+<td>cls (clear sreen)</td>
+<td>清屏</td>
+</tr>
+<tr>
+<td>exit</td>
+<td>退出DOS 命令行</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Java-语言平台版本"><a href="#Java-语言平台版本" class="headerlink" title="Java 语言平台版本"></a>Java 语言平台版本</h3><ul>
+<li>J2SE(Java 2 Paltform Standard Edition) 标准版<ul>
+<li>为开发普通桌面和商务应用程序提供的解决方案</li>
+<li>该技术体系为其他两者的基础</li>
+</ul>
+</li>
+<li>J2ME(Java 2 Platform Micro Edition) 小型版<ul>
+<li>开发电子消费产品和嵌入式设备提供的解决方案</li>
+</ul>
+</li>
+<li>J2EE(Java 2 Platform Enterprise Edition) 企业版<ul>
+<li>为开发企业环境下的应用程序提供的一套解决方案</li>
+<li>该技术体系中包含 <code>Servlet</code>、<code>Jsp</code>等，主要针对于web程序开发</li>
+</ul>
+</li>
+</ul>
+<h3 id="JVM-amp-JRE-amp-JDK"><a href="#JVM-amp-JRE-amp-JDK" class="headerlink" title="JVM &amp; JRE &amp; JDK"></a>JVM &amp; JRE &amp; JDK</h3><ul>
+<li>JVM(Java Virtual Machine) Java 运行所需虚拟机</li>
+<li>JRE(Java Runtime Environment) Java 运行环境<ul>
+<li>包括 <code>JVM</code> 和Java所需的核心类库等，可运行一个开发好的Java 程序</li>
+</ul>
+</li>
+<li>JDK(Java Development Kit) Java 开发工具包<ul>
+<li>提供给Java 开发人员使用，包含Java开发工具 &amp; <code>JRE</code> ，所以安装了<code>JDK</code>，就不用单独安装 <code>JRE</code>。</li>
+<li>简单而言：使用<code>JDK</code>开发完成的Java程序，交给<code>JRE</code>运行</li>
+</ul>
+</li>
+</ul>
+<h3 id="JDK-安装路径下的目录结构（Java-10-0之前）"><a href="#JDK-安装路径下的目录结构（Java-10-0之前）" class="headerlink" title="JDK 安装路径下的目录结构（Java 10.0之前）"></a>JDK 安装路径下的目录结构（Java 10.0之前）</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>目录</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bin</td>
+<td>存放可执行程序 如：javac.exe 编译器、java.exe 运行工具</td>
+</tr>
+<tr>
+<td>db</td>
+<td>JavaDB小型数据库</td>
+</tr>
+<tr>
+<td>jre</td>
+<td>运行环境根目录</td>
+</tr>
+<tr>
+<td>include</td>
+<td>由于JDK是通过C和C++实现的，因此启动时需要引入一些C语言的头文件，该目录就是用于存放这些头文件的。</td>
+</tr>
+<tr>
+<td>lib</td>
+<td>library的缩写，意为 Java 类库或库文件，是开发工具使用的归档包文件。</td>
+</tr>
+<tr>
+<td>src.zip</td>
+<td>src文件夹的压缩文件，存放JDK源代码</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="环境变量配置"><a href="#环境变量配置" class="headerlink" title="环境变量配置"></a>环境变量配置</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>变量名</th>
+<th>变量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JAVA_HOME</td>
+<td>~安装目录</td>
+</tr>
+<tr>
+<td>PATH</td>
+<td>+ %JAVA_HOME%/bin;</td>
+</tr>
+<tr>
+<td>classpath</td>
+<td>.;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// helloWorld.java</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello World"</span>)；</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 编译HelloWorld 类</span></span><br><span class="line">javac .\helloWorld.java</span><br><span class="line"><span class="comment"># 生成一个HelloWorld.class 的二进制文件</span></span><br><span class="line"><span class="comment"># 无报错执行，不用带扩展名，注意大小写</span></span><br><span class="line">java HelloWorld</span><br><span class="line"><span class="comment"># 输出</span></span><br><span class="line"><span class="comment"># Hello World</span></span><br></pre></td></tr></table></figure>
+<h3 id="标识符命名规则"><a href="#标识符命名规则" class="headerlink" title="标识符命名规则"></a>标识符命名规则</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>要求</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>包名（文件夹名）</td>
+<td>区别相同类名的问题，全部小写，一般为项目域名反写</td>
+<td><code>com.baidu.project</code></td>
+</tr>
+<tr>
+<td>类名</td>
+<td>单个单词，首字母大写；多个单词拼接，每个单词首字母大写，（大驼峰命名）</td>
+<td><code>HelloWorld</code>、<code>Fuck</code></td>
+</tr>
+<tr>
+<td>方法名、变量名</td>
+<td>单个单词，全部小写；多个单词，第二个单词首字母开始大写</td>
+<td><code>helloWorld</code>、<code>fuckYou</code></td>
+</tr>
+<tr>
+<td>常量</td>
+<td>单个单词，全部大写；多个单词，也全部大写，每个单词中间<code>_</code>分隔</td>
+<td><code>URL</code>、<code>SET_TOKEN</code></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
     <!-- Tags START -->
+    
+      <div class="tags">
+        <span>Tags:</span>
+        
+  <a href="/tags#java" >
+    <span class="tag-code">java</span>
+  </a>
+
+  <a href="/tags#编程" >
+    <span class="tag-code">编程</span>
+  </a>
+
+  <a href="/tags#java基础" >
+    <span class="tag-code">java基础</span>
+  </a>
+
+      </div>
     
     <!-- Tags END -->
     <!-- NAV START -->
@@ -204,7 +383,7 @@
   <div class="toc-main">
     <strong class="toc-title">Catalog</strong>
     
-      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Quick-Start"><span class="toc-nav-text">Quick Start</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Create-a-new-post"><span class="toc-nav-text">Create a new post</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Run-server"><span class="toc-nav-text">Run server</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Generate-static-files"><span class="toc-nav-text">Generate static files</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Deploy-to-remote-sites"><span class="toc-nav-text">Deploy to remote sites</span></a></li></ol></li></ol>
+      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#常用DOS-命令"><span class="toc-nav-text">常用DOS 命令</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Java-语言平台版本"><span class="toc-nav-text">Java 语言平台版本</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#JVM-amp-JRE-amp-JDK"><span class="toc-nav-text">JVM &amp; JRE &amp; JDK</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#JDK-安装路径下的目录结构（Java-10-0之前）"><span class="toc-nav-text">JDK 安装路径下的目录结构（Java 10.0之前）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#环境变量配置"><span class="toc-nav-text">环境变量配置</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Hello-World"><span class="toc-nav-text">Hello World</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#标识符命名规则"><span class="toc-nav-text">标识符命名规则</span></a></li></ol>
     
   </div>
 </aside>
@@ -214,7 +393,7 @@
 
 <script>
   (function () {
-    var url = 'http://2018.biiu.me/2018/08/15/hello-world/';
+    var url = 'http://code.biiu.me/2018/08/11/JAVA-day1/';
     var banner = ''
     if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
       $('#article-banner').css({
@@ -270,7 +449,7 @@
     var gitmentConfig = "yanm1ng";
     if (gitmentConfig !== 'undefined') {
       var gitment = new Gitment({
-        id: "Hello World",
+        id: "Java 安装准备工作",
         owner: "yanm1ng",
         repo: "yanm1ng.github.io",
         oauth: {
@@ -298,7 +477,7 @@
 <script>
   var disqus_shortname = '';
   
-  var disqus_url = 'http://2018.biiu.me/2018/08/15/hello-world/';
+  var disqus_url = 'http://code.biiu.me/2018/08/11/JAVA-day1/';
   
   (function(){
     var dsq = document.createElement('script');
